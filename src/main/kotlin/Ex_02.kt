@@ -1,4 +1,4 @@
-/*2- Faça um programa que entre com três números e coloque em ordem crescente. */
+/*2- Faça um programa que entre com três números e coloque em ordem decrescente. */
 
 fun main() {
 
@@ -12,14 +12,14 @@ fun main() {
     val n3 = readln().toInt()
 
     if (n1 > n2 && n1 > n3 && n2 > n3){
-        println("A ordem crescente dos número é $n1, $n2, $n3")
+        println("A ordem decrescente dos número é $n1, $n2, $n3")
     }else if (n2 > n1 && n2 > n3 && n1 > n3){
-        println("A ordem crescente dos número é $n2, $n1, $n3")
+        println("A ordem decrescente dos número é $n2, $n1, $n3")
     }else if (n3 > n1 && n3 > n2 && n2 > n1 ){
-        println("A ordem crescente dos número é $n3, $n2, $n1")
+        println("A ordem decrescente dos número é $n3, $n2, $n1")
     }else if (n3 > n1 && n3 > n2 && n1 > n2){
-        println("A ordem crescente dos número é $n3, $n1, $n2")
+        println("A ordem decrescente dos número é $n3, $n1, $n2")
     }else if (n2 > n1 && n2 > n3 && n3 > n1){
-        println("A ordem crescente dos número é $n2, $n3, $n1")
+        println("A ordem decrescente dos número é $n2, $n3, $n1")
     }
 }
